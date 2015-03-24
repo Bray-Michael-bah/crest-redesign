@@ -1,6 +1,14 @@
-/* humanstxt.org */
+/* TEAM */
+	Web Developer: Michael Bray
+	Contact: mab6bf [at] virginia.edu
+	From: Arlington, VA, USA
+
+	UI/UX Designer: Denise Borges
+	Contact: dmborges2 [at] gmail.com
+	From: Seattle, WA, USA
 
 /* SITE */
-  Standards: HTML5, CSS3
-  Components: jQuery
-  Software: Bootstrap, Sass
+	Last update: 2015/03/23
+	Standards: HTML5, CSS3
+	Components: jQuery
+	Software: Bootstrap, Sass

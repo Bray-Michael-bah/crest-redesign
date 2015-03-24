@@ -28,18 +28,51 @@
 			font-weight: bold;
 			padding: 10px 25px;
 			border-radius: 4px;
+			text-decoration: none;
 		}
 	}
 
-	.sixBoxes {
+	.sixBoxesHolder {
 
 
-		div {
+		.sixBoxes {
 			height: 370px;
+			background-repeat: no-repeat;
+			background-position-x: center;
+			margin-bottom: 20px;
+			position: relative;
+
+			.titleOverlay {
+				opacity: 0.8;
+				background-color: $black;
+				text-align: right;
+				padding-right: 15px;
+				margin: 0 15px 0;
+				color: $white;
+				font-weight: bold;
+				font-size: $mediumFontSize;
+				position: absolute;
+				width: 360px;
+				top: 0;
+				left: 0;
+				right: 0;
+				height: 50px;
+				line-height: 50px;
+			}
 		}
+
+		.sixBoxes1 { background-image: url('/img/sixBoxes1.png'); }
+		.sixBoxes2 { background-image: url('/img/sixBoxes2.png'); }
+		.sixBoxes3 { background-image: url('/img/sixBoxes3.png'); }
+		.sixBoxes4 { background-image: url('/img/sixBoxes4.png'); }
+		.sixBoxes5 { background-image: url('/img/sixBoxes5.png'); }
+		.sixBoxes6 { background-image: url('/img/sixBoxes6.png'); }
 	}
 
 	.stayConnected {
+		.paragraphTitle {
+			margin: 15px 0 35px;
+		}
 
 		.twitterFeed, .newsletter {
 			height: 300px;

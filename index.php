@@ -18,13 +18,25 @@
 			<a href="#" class="learnMore">Learn more about us</a>
 		</div>
 
-		<div class="row sixBoxes">
-			<div class="col-lg-4">Consulting Services</div>
-			<div class="col-lg-4">Projects</div>
-			<div class="col-lg-4">Reports</div>
-			<div class="col-lg-4">Traveler's Philanthropy</div>
-			<div class="col-lg-4">Events</div>
-			<div class="col-lg-4">For Travelers</div>
+		<div class="row sixBoxesHolder">
+			<div class="col-lg-4 sixBoxes sixBoxes1">
+				<div class="titleOverlay">Consulting Services</div>
+			</div>
+			<div class="col-lg-4 sixBoxes sixBoxes2">
+				<div class="titleOverlay">Projects</div>
+			</div>
+			<div class="col-lg-4 sixBoxes sixBoxes3">
+				<div class="titleOverlay">Reports</div>
+			</div>
+			<div class="col-lg-4 sixBoxes sixBoxes4">
+				<div class="titleOverlay secondLevel">Traveler's Philanthropy</div>
+			</div>
+			<div class="col-lg-4 sixBoxes sixBoxes5">
+				<div class="titleOverlay secondLevel">Events</div>
+			</div>
+			<div class="col-lg-4 sixBoxes sixBoxes6">
+				<div class="titleOverlay secondLevel">For Travelers</div>
+			</div>
 		</div>
 
 		<div class="row stayConnected">
