@@ -1,0 +1,21 @@
+// Custom Colors
+$lightBlue: #79A7C4;
+$red: #761E10;
+$yellow: #F3C363;
+$grey: #F2F2F2;
+
+// Standard Colors
+$white: #FFF;
+$black: #000;
+
+// Fonts
+$fontFamily: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+
+$largestFontSize: 32px;
+$h1FontSize: 24px;
+$h2FontSize: 18px;
+$regularFontSize: 16px;
+
+* {
+	font-family: $fontFamily;
+}

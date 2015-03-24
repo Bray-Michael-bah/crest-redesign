@@ -1,0 +1,33 @@
+.footer {
+	background-color: $lightBlue;
+	color: $white;
+	height: 150px;
+	font-size: 18px;
+
+	a:hover {
+		color: $yellow;
+	}
+
+	.crestName {
+		margin: 15px 0 10px;
+		font-weight: bold;
+	}
+
+	.contact {
+		margin: 15px 0 10px;
+		text-align: right;
+	}
+
+	.social {
+		text-align: right;
+
+		img {
+			height: 50px;
+			width: 50px;
+		}
+
+		a:hover {
+			color: $yellow;
+		}
+	}
+}
