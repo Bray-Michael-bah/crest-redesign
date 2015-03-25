@@ -1,0 +1,36 @@
+.projectReportsLayout{
+	.content {
+		.projectHolder {
+			margin-bottom: 30px;
+
+			.projectImageHolder{
+				overflow-y: hidden;
+				height: 260px;
+
+				img {
+					max-width: 100%;
+				}
+			}
+
+			.projectContent {
+				position: relative;
+				height: 260px;
+
+				h2 {
+					margin-top: 0;
+					font-weight: bold;
+				}
+
+				a {
+					position: absolute;
+					bottom: 0;
+				}
+			}
+		}
+	}
+}
+
+// Responsive properties
+@media only screen and (max-width: 991px) {
+
+}

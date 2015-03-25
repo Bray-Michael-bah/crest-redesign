@@ -1,0 +1,22 @@
+.peopleLayoutFormat {
+	.boardMemberHolder {
+		margin-bottom: 35px;
+
+		* {
+			margin-bottom: 0;
+		}
+
+		h2 {
+			font-weight: bold;
+		}
+
+		.title, .company {
+			font-size: $regularFontSize;
+		}
+	}
+}
+
+// Responsive properties
+@media only screen and (max-width: 991px) {
+
+}

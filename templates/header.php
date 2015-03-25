@@ -3,7 +3,11 @@
 		<div class="container">
 			<div class="donateAndLanguageButtons">
 				<a href="#" class="donate">Donate</a>
-				<a href="#" class="languages">Languages <span class="caret"></span></a>
+				<a href="#" class="dropdown-toggle languages" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
+				<ul class="dropdown-menu getInvolvedDropdown" role="menu">
+					<li><a href="#">English</a></li>
+					<li><a href="#">Spanish</a></li>
+				</ul>
 			</div>
 			<!-- Brand and toggle get grouped for better mobile display -->
 			<div class="navbar-header">
@@ -26,15 +30,15 @@
 						<ul class="dropdown-menu whoWeAreDropdown" role="menu">
 							<div class="col-lg-6">
 								<li class="header">General Information</li>
-								<li><a href="#">About Us</a></li>
-								<li><a href="#">Board of Directors</a></li>
-								<li><a href="#">Honorary Board</a></li>
-								<li><a href="#">Staff</a></li>
+								<li><a href="../whoWeAre/aboutUs.php">About Us</a></li>
+								<li><a href="../whoWeAre/board.php">Board of Directors</a></li>
+								<li><a href="../whoWeAre/honoraryBoard.php">Honorary Board</a></li>
+								<li><a href="../whoWeAre/staff.php">Staff</a></li>
 							</div>
 							<div class="col-lg-6">
 								<li class="header">Partners</li>
-								<li><a href="#">Partnerships</a></li>
-								<li><a href="#">CREST Supporters</a></li>
+								<li><a href="../whoWeAre/partnerships.php">Partnerships</a></li>
+								<li><a href="../whoWeAre/supporters.php">CREST Supporters</a></li>
 							</div>
 						</ul>
 					</li>
@@ -43,28 +47,28 @@
 						<ul class="dropdown-menu whatWeDoDropdown" role="menu">
 							<div class="col-lg-4">
 								<li class="header">Projects</li>
-								<li><a href="#">Current Projects</a></li>
-								<li><a href="#">Past Projects</a></li>
+								<li><a href="../whatWeDo/currentProjects.php">Current Projects</a></li>
+								<li><a href="../whatWeDo/pastProjects.php">Past Projects</a></li>
 								<li class="dropdown">
-									<a href="#">Consulting Services</a>
+									<a href="../whatWeDo/consultingServices.php">Consulting Services</a>
 									<ul class="dropdown-menu" role="menu">
-										<li><a href="#">Our Experts</a></li>
+										<li><a href="../whatWeDo/ourExperts.php">Our Experts</a></li>
 									</ul>
 								</li>
 							</div>
 							<div class="col-lg-4">
 								<li class="header">Projects</li>
-								<li><a href="#">Certification</a></li>
-								<li><a href="#">Coastal Tourism</a></li>
-								<li><a href="#">Cruise Tourism</a></li>
-								<li><a href="#">Ecotourism</a></li>
-								<li><a href="#">Indiginous Tourism</a></li>
-								<li><a href="#">Market Studies</a></li>
+								<li><a href="../whatWeDo/certification.php">Certification</a></li>
+								<li><a href="../whatWeDo/coastalTourism.php">Coastal Tourism</a></li>
+								<li><a href="../whatWeDo/cruiseTourism.php">Cruise Tourism</a></li>
+								<li><a href="../whatWeDo/ecotourism.php">Ecotourism</a></li>
+								<li><a href="../whatWeDo/indigenousTourism.php">Indiginous Tourism</a></li>
+								<li><a href="../whatWeDo/marketStudies.php">Market Studies</a></li>
 							</div>
 							<div class="col-lg-4">
 								<li class="header">Media</li>
-								<li><a href="#">Books</a></li>
-								<li><a href="#">Films</a></li>
+								<li><a href="../whatWeDo/books.php">Books</a></li>
+								<li><a href="../whatWeDo/films.php">Films</a></li>
 							</div>
 						</ul>
 					</li>
@@ -72,22 +76,22 @@
 						<a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Get Involved</a>
 						<ul class="dropdown-menu getInvolvedDropdown" role="menu">
 							<li class="dropdown">
-								<a href="#">Traveler's Philanthropy</a>
+								<a href="../getInvolved/travelersPhilanthropy.php">Traveler's Philanthropy</a>
 								<ul class="dropdown-menu" role="menu">
-									<li><a href="#">Community Projects</a></li>
-									<li><a href="#">Destination Wide Projects</a></li>
-									<li><a href="#">Toolkit</a></li>
-									<li><a href="#">Resources</a></li>
-									<li><a href="#">For Business</a></li>
-									<li><a href="#">For Travelers</a></li>
+									<li><a href="../getInvolved/communityProjects.php">Community Projects</a></li>
+									<li><a href="../getInvolved/destinationWideProjects.php">Destination Wide Projects</a></li>
+									<li><a href="../getInvolved/toolkit.php">Toolkit</a></li>
+									<li><a href="../getInvolved/resources.php">Resources</a></li>
+									<li><a href="../getInvolved/forBusinesses.php">For Business</a></li>
+									<li><a href="../getInvolved/forTravelers.php">For Travelers</a></li>
 								</ul>
 							</li>
-							<li><a href="#">Charter Club</a></li>
-							<li><a href="#">Conferences</a></li>
-							<li><a href="#">Contests</a></li>
-							<li><a href="#">Current Calendar</a></li>
-							<li><a href="#">Eco Auctions</a></li>
-							<li><a href="#">Internships</a></li>
+							<li><a href="../getInvolved/charterClub.php">Charter Club</a></li>
+							<li><a href="../getInvolved/conferences.php">Conferences</a></li>
+							<li><a href="../getInvolved/contests.php">Contests</a></li>
+							<li><a href="../getInvolved/calendar.php">Current Calendar</a></li>
+							<li><a href="../getInvolved/ecoAuctions.php">Eco Auctions</a></li>
+							<li><a href="../getInvolved/internships.php">Internships</a></li>
 						</ul>
 					</li>
 					<li class="search">

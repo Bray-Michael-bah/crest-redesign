@@ -13,21 +13,36 @@
 		font-weight: bold;
 	}
 
-	.contact {
-		margin: 15px 0 10px;
-		text-align: right;
-	}
-
-	.social {
-		text-align: right;
-
-		img {
-			height: 50px;
-			width: 50px;
+	.contactUsLinks{
+		a {
+			color: $white;
+			text-decoration: none;
 		}
 
 		a:hover {
 			color: $yellow;
 		}
+
+		.contact {
+			margin: 15px 0 10px;
+			text-align: right;
+		}
+
+		.social {
+			text-align: right;
+
+			img {
+				height: 50px;
+				width: 50px;
+			}
+		}
+	}
+}
+
+// Responsive properties
+@media only screen and (max-width: 991px) {
+	.footer {
+		height: auto;
+		padding-bottom: 15px;
 	}
 }

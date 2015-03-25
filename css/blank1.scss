@@ -1,0 +1,65 @@
+.blank1Format {
+	margin: 0 0 50px;
+
+	.headerImage {
+		height:400px;
+		background-image: url('../img/blank1_background.jpg');
+
+		.headerImageOverlay {
+			margin: 35px 0;
+			color: $white;
+			text-shadow: 1px 1px $black;
+
+			p {
+				font-size: $h2FontSize;
+				width: 80%;
+			}
+		}
+	}
+
+	.content {
+		h2 {
+			font-weight: bold;
+		}
+
+		p, ol li, ul li {
+			font-size: $regularFontSize;
+		}
+
+		ol li, ul li {
+			margin: 10px;
+		}
+
+		.aboutImage{
+			height: 300px;
+		}
+
+		.aboutImage1{ background-image:url('../img/slideshow2.jpg');}
+		.aboutImage2{ background-image:url('../img/aboutUs2.jpg');}
+
+		.caption {
+			font-size: $smallFontSize;
+			margin: 10px 0;
+		}
+	}
+}
+
+// Responsive properties
+@media only screen and (max-width: 991px) {
+	.headerImage {
+		.container {
+			position: relative;
+			height: 400px;
+
+			.headerImageOverlay {
+				font-size: $smallFontSize;
+				position: absolute;
+				top: 20px;
+
+				p {
+					font-size: $smallFontSize;
+				}
+			}
+		}
+	}
+}

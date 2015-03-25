@@ -1,4 +1,18 @@
+// Global variables, HTML element styles, and custom global classes
 @import '_global';
+
+// Header and footer
 @import 'header';
-@import 'main';
 @import 'footer';
+
+// Home Page
+@import 'main';
+
+// Templates
+// To use, name root element the name of the template plus "Format"
+// Ex. <div class="container blank1Format">
+@import 'blank1';
+@import 'blank2';
+@import 'peopleLayout';
+@import 'projectReports';
+@import 'travelersPhilanthropyProjectReports';

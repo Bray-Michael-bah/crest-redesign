@@ -16,7 +16,91 @@ $h1FontSize: 24px;
 $mediumFontSize: 20px;
 $h2FontSize: 18px;
 $regularFontSize: 16px;
+$smallFontSize: 14px;
+
+// Global HTML element properties
 
 * {
 	font-family: $fontFamily;
+}
+
+h1 {
+	font-size: $h1FontSize;
+	font-weight: bold;
+}
+
+h2 {
+	font-size: $h2FontSize;
+	font-weight: bold;
+}
+
+a, a:hover {
+	text-decoration: none;
+}
+
+// Custom, commonly used classes
+
+.linkButton {
+	background-color: $lightBlue;
+	color: $white;
+	font-size: $h1FontSize;
+	font-weight: bold;
+	padding: 10px 25px;
+	border-radius: 4px;
+	text-decoration: none;
+}
+
+.linkButton.small {
+	font-size: $regularFontSize;
+}
+
+.linkButton:hover {
+	color: $yellow;
+	text-decoration: none;
+}
+
+.centeredBackgroundImage {
+	background-repeat: no-repeat;
+	background-size: 100%;
+	background-position: center;
+}
+
+.sidebar, .content {
+	color: $black;
+
+	h1 {
+		padding-bottom: 15px;
+		border-bottom: 1px solid $lightBlue;
+	}
+
+	h2 {
+		font-weight: normal;
+	}
+
+	ul {
+		padding-left: 20px;
+	}
+
+	li {
+		text-decoration: none;
+		list-style: none;
+		font-size: $regularFontSize;
+		margin-bottom: 10px;
+	}
+
+	h2.active a, li.active a {
+		color: $red;
+		font-weight: bold;
+	}
+}
+
+.sidebar {
+	a {
+		color: $black;
+	}
+
+	a:hover {
+		color: $red;
+		text-decoration: none;
+	}
 }

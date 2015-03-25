@@ -1,6 +1,62 @@
 * {
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif; }
 
+h1 {
+  font-size: 24px;
+  font-weight: bold; }
+
+h2 {
+  font-size: 18px;
+  font-weight: bold; }
+
+a, a:hover {
+  text-decoration: none; }
+
+.linkButton {
+  background-color: #79A7C4;
+  color: #FFF;
+  font-size: 24px;
+  font-weight: bold;
+  padding: 10px 25px;
+  border-radius: 4px;
+  text-decoration: none; }
+
+.linkButton.small {
+  font-size: 16px; }
+
+.linkButton:hover {
+  color: #F3C363;
+  text-decoration: none; }
+
+.centeredBackgroundImage {
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center; }
+
+.sidebar, .content {
+  color: #000; }
+  .sidebar h1, .content h1 {
+    padding-bottom: 15px;
+    border-bottom: 1px solid #79A7C4; }
+  .sidebar h2, .content h2 {
+    font-weight: normal; }
+  .sidebar ul, .content ul {
+    padding-left: 20px; }
+  .sidebar li, .content li {
+    text-decoration: none;
+    list-style: none;
+    font-size: 16px;
+    margin-bottom: 10px; }
+  .sidebar h2.active a, .sidebar li.active a, .content h2.active a, .content li.active a {
+    color: #761E10;
+    font-weight: bold; }
+
+.sidebar a {
+  color: #000; }
+.sidebar a:hover {
+  color: #761E10;
+  text-decoration: none; }
+
 .masthead {
   height: 120px;
   position: relative; }
@@ -87,8 +143,37 @@
 @media only screen and (max-width: 991px) {
   .donateAndLanguageButtons {
     display: none; } }
+.footer {
+  background-color: #79A7C4;
+  color: #FFF;
+  height: 150px;
+  font-size: 18px; }
+  .footer a:hover {
+    color: #F3C363; }
+  .footer .crestName {
+    margin: 15px 0 10px;
+    font-weight: bold; }
+  .footer .contactUsLinks a {
+    color: #FFF;
+    text-decoration: none; }
+  .footer .contactUsLinks a:hover {
+    color: #F3C363; }
+  .footer .contactUsLinks .contact {
+    margin: 15px 0 10px;
+    text-align: right; }
+  .footer .contactUsLinks .social {
+    text-align: right; }
+    .footer .contactUsLinks .social img {
+      height: 50px;
+      width: 50px; }
+
+@media only screen and (max-width: 991px) {
+  .footer {
+    height: auto;
+    padding-bottom: 15px; } }
 .slideshow {
-  height: 600px; }
+  height: 600px;
+  background-image: url("/img/slideshow1.jpg"); }
 
 .mainContent {
   text-align: center;
@@ -103,14 +188,6 @@
     margin-bottom: 35px; }
     .mainContent .transforming .transformingContent {
       margin-bottom: 40px; }
-    .mainContent .transforming .learnMore {
-      background-color: #79A7C4;
-      color: #FFF;
-      font-size: 24px;
-      font-weight: bold;
-      padding: 10px 25px;
-      border-radius: 4px;
-      text-decoration: none; }
   .mainContent .sixBoxesHolder .sixBoxes {
     height: 370px;
     background-repeat: no-repeat;
@@ -147,32 +224,89 @@
     background-image: url("/img/sixBoxes6.png"); }
   .mainContent .stayConnected .paragraphTitle {
     margin: 15px 0 35px; }
-  .mainContent .stayConnected .twitterFeed, .mainContent .stayConnected .newsletter {
-    height: 300px; }
   .mainContent .stayConnected .twitterFeed .twitterContent {
-    background-color: #F2F2F2; }
+    height: 300px; }
+    .mainContent .stayConnected .twitterFeed .twitterContent #twitter-widget-0 {
+      width: 750px !important; }
   .mainContent .stayConnected .newsletter .newsLetterContent {
-    background-color: #F2F2F2; }
+    text-align: left;
+    padding: 10px 20px 20px;
+    background-color: #F2F2F2;
+    height: 300px;
+    font-size: 16px;
+    position: relative; }
+    .mainContent .stayConnected .newsletter .newsLetterContent p {
+      margin: 20px 0; }
+    .mainContent .stayConnected .newsletter .newsLetterContent input {
+      padding: 10px;
+      width: 100%;
+      display: block; }
+    .mainContent .stayConnected .newsletter .newsLetterContent a {
+      position: absolute;
+      bottom: 20px; }
 
-.footer {
-  background-color: #79A7C4;
-  color: #FFF;
-  height: 150px;
-  font-size: 18px; }
-  .footer a:hover {
-    color: #F3C363; }
-  .footer .crestName {
-    margin: 15px 0 10px;
+.blank1Format {
+  margin: 0 0 50px; }
+  .blank1Format .headerImage {
+    height: 400px;
+    background-image: url("../img/blank1_background.jpg"); }
+    .blank1Format .headerImage .headerImageOverlay {
+      margin: 35px 0;
+      color: #FFF;
+      text-shadow: 1px 1px #000; }
+      .blank1Format .headerImage .headerImageOverlay p {
+        font-size: 18px;
+        width: 80%; }
+  .blank1Format .content h2 {
     font-weight: bold; }
-  .footer .contact {
-    margin: 15px 0 10px;
-    text-align: right; }
-  .footer .social {
-    text-align: right; }
-    .footer .social img {
-      height: 50px;
-      width: 50px; }
-    .footer .social a:hover {
-      color: #F3C363; }
+  .blank1Format .content p, .blank1Format .content ol li, .blank1Format .content ul li {
+    font-size: 16px; }
+  .blank1Format .content ol li, .blank1Format .content ul li {
+    margin: 10px; }
+  .blank1Format .content .aboutImage {
+    height: 300px; }
+  .blank1Format .content .aboutImage1 {
+    background-image: url("../img/slideshow2.jpg"); }
+  .blank1Format .content .aboutImage2 {
+    background-image: url("../img/aboutUs2.jpg"); }
+  .blank1Format .content .caption {
+    font-size: 14px;
+    margin: 10px 0; }
+
+@media only screen and (max-width: 991px) {
+  .headerImage .container {
+    position: relative;
+    height: 400px; }
+    .headerImage .container .headerImageOverlay {
+      font-size: 14px;
+      position: absolute;
+      top: 20px; }
+      .headerImage .container .headerImageOverlay p {
+        font-size: 14px; } }
+.peopleLayoutFormat .boardMemberHolder {
+  margin-bottom: 35px; }
+  .peopleLayoutFormat .boardMemberHolder * {
+    margin-bottom: 0; }
+  .peopleLayoutFormat .boardMemberHolder h2 {
+    font-weight: bold; }
+  .peopleLayoutFormat .boardMemberHolder .title, .peopleLayoutFormat .boardMemberHolder .company {
+    font-size: 16px; }
+
+.projectReportsLayout .content .projectHolder {
+  margin-bottom: 30px; }
+  .projectReportsLayout .content .projectHolder .projectImageHolder {
+    overflow-y: hidden;
+    height: 260px; }
+    .projectReportsLayout .content .projectHolder .projectImageHolder img {
+      max-width: 100%; }
+  .projectReportsLayout .content .projectHolder .projectContent {
+    position: relative;
+    height: 260px; }
+    .projectReportsLayout .content .projectHolder .projectContent h2 {
+      margin-top: 0;
+      font-weight: bold; }
+    .projectReportsLayout .content .projectHolder .projectContent a {
+      position: absolute;
+      bottom: 0; }
 
 /*# sourceMappingURL=style.css.map */

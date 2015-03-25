@@ -1,5 +1,6 @@
 .slideshow {
 	height: 600px;
+	background-image: url('/img/slideshow1.jpg');
 }
 
 .mainContent {
@@ -20,21 +21,9 @@
 		.transformingContent {
 			margin-bottom: 40px;
 		}
-
-		.learnMore{
-			background-color: $lightBlue;
-			color: $white;
-			font-size: $h1FontSize;
-			font-weight: bold;
-			padding: 10px 25px;
-			border-radius: 4px;
-			text-decoration: none;
-		}
 	}
 
 	.sixBoxesHolder {
-
-
 		.sixBoxes {
 			height: 370px;
 			background-repeat: no-repeat;
@@ -74,19 +63,39 @@
 			margin: 15px 0 35px;
 		}
 
-		.twitterFeed, .newsletter {
-			height: 300px;
-		}
-
 		.twitterFeed {
 			.twitterContent {
-				background-color: $grey;
+				height: 300px;
+
+				#twitter-widget-0 {
+					width: 750px !important;
+				}
 			}
 		}
 
 		.newsletter {
 			.newsLetterContent {
+				text-align: left;
+				padding: 10px 20px 20px;
 				background-color: $grey;
+				height: 300px;
+				font-size: $regularFontSize;
+				position: relative;
+
+				p {
+					margin: 20px 0;
+				}
+
+				input {
+					padding: 10px;
+					width: 100%;
+					display: block;
+				}
+
+				a {
+					position: absolute;
+					bottom: 20px;
+				}
 			}
 		}
 	}
