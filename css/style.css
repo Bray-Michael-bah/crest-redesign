@@ -248,8 +248,7 @@ a, a:hover {
 .blank1Format {
   margin: 0 0 50px; }
   .blank1Format .headerImage {
-    height: 400px;
-    background-image: url("../img/blank1_background.jpg"); }
+    height: 400px; }
     .blank1Format .headerImage .headerImageOverlay {
       margin: 35px 0;
       color: #FFF;
@@ -257,6 +256,10 @@ a, a:hover {
       .blank1Format .headerImage .headerImageOverlay p {
         font-size: 18px;
         width: 80%; }
+  .blank1Format .headerImage.aboutUs {
+    background-image: url("../img/blank1_background.jpg"); }
+  .blank1Format .headerImage.travelersPhilanthropy {
+    background-image: url("../img/slideshow1.jpg"); }
   .blank1Format .content h2 {
     font-weight: bold; }
   .blank1Format .content p, .blank1Format .content ol li, .blank1Format .content ul li {
@@ -272,6 +275,23 @@ a, a:hover {
   .blank1Format .content .caption {
     font-size: 14px;
     margin: 10px 0; }
+  .blank1Format .content .tpBoxHolder {
+    margin-top: 20px; }
+    .blank1Format .content .tpBoxHolder .tpBox {
+      position: relative;
+      height: 100px;
+      margin-bottom: 10px;
+      background-color: #F3C363;
+      text-align: right; }
+      .blank1Format .content .tpBoxHolder .tpBox a, .blank1Format .content .tpBoxHolder .tpBox a:hover {
+        position: absolute;
+        bottom: 20%;
+        right: 30px;
+        background-color: #F3C363;
+        text-decoration: none;
+        color: #FFF;
+        font-size: 24px;
+        font-weight: bold; }
 
 @media only screen and (max-width: 991px) {
   .headerImage .container {

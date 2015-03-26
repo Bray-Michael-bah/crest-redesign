@@ -5,7 +5,7 @@
 <?php include "../templates/header.php" ?>
 
 <div class="blank1Format">
-	<div class="headerImage centeredBackgroundImage">
+	<div class="headerImage centeredBackgroundImage aboutUs">
 		<div class="container">
 			<div class="headerImageOverlay">
 				<h1>Transforming the way the world travels</h1>

@@ -3,7 +3,6 @@
 
 	.headerImage {
 		height:400px;
-		background-image: url('../img/blank1_background.jpg');
 
 		.headerImageOverlay {
 			margin: 35px 0;
@@ -15,6 +14,12 @@
 				width: 80%;
 			}
 		}
+	}
+
+	.headerImage.aboutUs {
+		background-image: url('../img/blank1_background.jpg'); }
+	.headerImage.travelersPhilanthropy {
+		background-image: url('../img/slideshow1.jpg');
 	}
 
 	.content {
@@ -40,6 +45,30 @@
 		.caption {
 			font-size: $smallFontSize;
 			margin: 10px 0;
+		}
+
+		.tpBoxHolder {
+			margin-top: 20px;
+
+			.tpBox {
+				position: relative;
+				height: 100px;
+				margin-bottom: 10px;
+				background-color: $yellow;
+				text-align: right;
+
+				a, a:hover {
+					position: absolute;
+					//width: 75%;
+					bottom: 20%;
+					right: 30px;
+					background-color: $yellow;
+					text-decoration: none;
+					color: $white;
+					font-size: $h1FontSize;
+					font-weight: bold;
+				}
+			}
 		}
 	}
 }
