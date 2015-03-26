@@ -4,7 +4,7 @@
 			<div class="donateAndLanguageButtons">
 				<a href="#" class="donate">Donate</a>
 				<a href="#" class="dropdown-toggle languages" data-toggle="dropdown" role="button" aria-expanded="false">Languages <span class="caret"></span></a>
-				<ul class="dropdown-menu getInvolvedDropdown" role="menu">
+				<ul class="dropdown-menu languageDropdown" role="menu">
 					<li><a href="#">English</a></li>
 					<li><a href="#">Spanish</a></li>
 				</ul>

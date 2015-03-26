@@ -43,6 +43,32 @@
 			.languages{
 				margin: 0 40px 0 20px;
 			}
+
+			.languageDropdown {
+				left: auto;
+				right: 30px;
+				background-color: $lightBlue;
+				border-radius: 0px;
+
+				* {
+					background-color: $lightBlue;
+				}
+
+				li {
+
+					a, a:hover {
+						color: $white;
+						font-weight: normal;
+						text-decoration: none;
+						padding: 5px 0 5px;
+						margin: 0 0 0 20px;
+					}
+
+					a:hover {
+						color: $yellow;
+					}
+				}
+			}
 		}
 
 		.container {
@@ -142,5 +168,39 @@
 @media only screen and (max-width: 991px) {
 	.donateAndLanguageButtons {
 		display:none;
+	}
+
+	.masthead {
+
+		.navbar {
+			height: auto;
+
+			.container {
+				height: auto;
+
+				.navbar-collapse {
+					height: auto;
+
+					.navbar-nav {
+						height: auto;
+
+						li {
+							margin: 0;
+							padding: 10px 0 0;
+						}
+
+						.search, .searchButton {
+							display: none;
+						}
+
+						.open {
+							.navbar-brand {
+								overflow-y: hidden;
+							}
+						}
+					}
+				}
+			}
+		}
 	}
 }

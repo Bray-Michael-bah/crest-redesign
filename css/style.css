@@ -90,6 +90,21 @@ a, a:hover {
         background-color: #761E10; }
       .masthead .navbar .donateAndLanguageButtons .languages {
         margin: 0 40px 0 20px; }
+      .masthead .navbar .donateAndLanguageButtons .languageDropdown {
+        left: auto;
+        right: 30px;
+        background-color: #79A7C4;
+        border-radius: 0px; }
+        .masthead .navbar .donateAndLanguageButtons .languageDropdown * {
+          background-color: #79A7C4; }
+        .masthead .navbar .donateAndLanguageButtons .languageDropdown li a, .masthead .navbar .donateAndLanguageButtons .languageDropdown li a:hover {
+          color: #FFF;
+          font-weight: normal;
+          text-decoration: none;
+          padding: 5px 0 5px;
+          margin: 0 0 0 20px; }
+        .masthead .navbar .donateAndLanguageButtons .languageDropdown li a:hover {
+          color: #F3C363; }
     .masthead .navbar .container {
       height: 120px;
       position: relative; }
@@ -142,7 +157,23 @@ a, a:hover {
 
 @media only screen and (max-width: 991px) {
   .donateAndLanguageButtons {
-    display: none; } }
+    display: none; }
+
+  .masthead .navbar {
+    height: auto; }
+    .masthead .navbar .container {
+      height: auto; }
+      .masthead .navbar .container .navbar-collapse {
+        height: auto; }
+        .masthead .navbar .container .navbar-collapse .navbar-nav {
+          height: auto; }
+          .masthead .navbar .container .navbar-collapse .navbar-nav li {
+            margin: 0;
+            padding: 10px 0 0; }
+          .masthead .navbar .container .navbar-collapse .navbar-nav .search, .masthead .navbar .container .navbar-collapse .navbar-nav .searchButton {
+            display: none; }
+          .masthead .navbar .container .navbar-collapse .navbar-nav .open .navbar-brand {
+            overflow-y: hidden; } }
 .footer {
   background-color: #79A7C4;
   color: #FFF;
